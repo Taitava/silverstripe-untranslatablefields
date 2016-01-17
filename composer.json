@@ -1,0 +1,18 @@
+{
+  "name": "taitava/silverstripe-untranslatablefields",
+  "description": "Make custom specified data fields to share the same value across different locale/language versions.",
+  "type": "silverstripe-module",
+  "keywords": ["silverstripe", "translatable", "untranslate", "field"],
+  "authors": [{
+    "name": "Jarkko Linnanvirta",
+    "email": "jarkko@taitavasti.fi"
+  }],
+  "minimum-stability": "dev",
+  "require": {
+    "silverstripe/translatable": "*"
+  },
+  "license": "MIT",
+  "extra": {
+    "installer-name": "untranslatablefields"
+  }
+}
